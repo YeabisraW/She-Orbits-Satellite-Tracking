@@ -1,0 +1,4 @@
+# Technical Stack for Satellite Tracking
+skyfield==1.46  # For SGP4 propagation (TLE to Lat/Long)
+pandas==2.1.1    # For data organization
+requests==2.31.0 # For fetching TLE data from CelesTrak
